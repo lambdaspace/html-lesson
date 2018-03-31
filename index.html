@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML form</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header class="header header--small layout-center layout-center--contained">
+  <span class="header__logo">
+    <a href="#" title="Αρχική" rel="home">
+      <img src="https://community.lambdaspace.gr/uploads/default/optimized/1X/a782f64d96fb090dc80a232a6276c4281c2ae856_1_492x500.png" alt="Lambda Space" id="site-logo" class="header__logo-image" />
+    </a>
+  </span>
+
+  <span class="header__site-name">
+    <a href="//lamdaspace.gr/" title="Αρχική" rel="home" class="header__site-name-link">
+      Lamdaspace
+    </a>
+  </span>
+
+</header>
+
+
+<main class="layout-center layout-center--contained">
+  <form class="form">
+    <h2 class="form__title">ΣΥΝΔΕΘΕΙΤΕ ΜΕ ΤΟΝ ΛΟΓΑΡΙΑΣΜΟ EMAIL</h2>
+
+    <div class="form__inner">
+      <p class="form__subtitle">Lamdaspace internal laboratories</p>
+
+      <div class="form__item">
+        <label for="username">Όνομα Χρήστη</label>
+        <input id="username" type="text" class="form__input" />
+      </div>
+
+      <div class="form__item">
+        <label for="password">Κωδικός</label>
+        <input id="password" type="password" class="form__input" />
+      </div>
+
+      <div>
+        <input type="checkbox" id="showpassword">
+        <label for="showpassword" class="form__label-inline">Show password</label>
+      </div>
+
+      <input type="submit" value="ΣΥΝΔΕΣΗ" class="form__submit button" />
+
+      <p>
+        <a href="password-recovery.html">Ξεχάσατε τον Κωδικό σας;</a>
+      </p>
+    </div>
+  </form>
+</main>
+
+<footer class="footer">
+  Copyleft GPLv2 <br />
+  Fell free to modify
+</footer>
+
+</body>
+</html>
